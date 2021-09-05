@@ -64,9 +64,9 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
          <p>
-            Loot is randomized adventurer gear generated and stored on chain.
+            Polygon Loot is randomized adventurer gear generated and stored on Polygon.
             <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Loot in any
+            omitted for others to interpret. <br /> If you were not lucky on Ethereum, let's feel free to use Loot in any
             way you want.
           </p>
         </div>
