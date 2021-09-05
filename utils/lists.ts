@@ -1,9 +1,9 @@
 // Loot communities
 export const communityList: Record<string, string>[] = [
   {
-    name: "Loot Community Discord",
+    name: "Polygon Loot Community Discord",
     description: "For all things Loot and derivatives (note: high traffic)",
-    url: "https://discord.gg/NXEntTSHgy",
+    url: "https://discord.com/invite/NEPPqXzzAB",
   },
   {
     name: "Loot Talk (Forum)",
@@ -15,8 +15,8 @@ export const communityList: Record<string, string>[] = [
 // Loot resources
 export const resourceList: Record<string, string>[] = [
   {
-    name: "Loot Rarity",
-    description: "Loot attributes and rarities sheet by @AustinGreen",
+    name: "Polygon Loot Rarity",
+    description: "Polygon Loot attributes and rarities sheet by @AustinGreen",
     url: "https://docs.google.com/spreadsheets/d/1Al0Yi-tM7K_05pCKjkQtSJjwbV2jMfac1i_oC4j2EYI/edit",
   },
   {
