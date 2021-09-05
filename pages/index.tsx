@@ -63,7 +63,8 @@ export default function Home(): ReactElement {
           <p>
             Polygon Loot is randomized adventurer gear generated and stored on chain.
             <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Polygon  Loot in any
+            omitted for others to interpret. 
+            <br/>If you were not lucky enough with Loot on Ethereum, let's feel free to use Polygon  Loot in any
             way you want.
           </p>
         </div>
