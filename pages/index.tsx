@@ -18,7 +18,7 @@ export default function Home(): ReactElement {
     },
     {
       name: "Contract",
-      url: "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+      url: "https://polygonscan.com/address/0xb4dbf994ce6714a258f4f1dfefadc8119b14ec48",
     },
   ];
 
@@ -64,7 +64,7 @@ export default function Home(): ReactElement {
             Polygon Loot is randomized adventurer gear generated and stored on chain.
             <br /> Stats, images, and other functionality are intentionally
             omitted for others to interpret. 
-            <br/>If you were not lucky enough with Loot on Ethereum, let's feel free to use Polygon  Loot in any
+            <br/>If you were not lucky enough with Loot on Ethereum, let's feel free to use Polygon Loot in any
             way you want.
           </p>
         </div>
