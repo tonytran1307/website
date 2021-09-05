@@ -14,7 +14,7 @@ export default function Home(): ReactElement {
     { name: "Synthetic Loot", url: "/synthloot" },
     {
       name: "Twitter",
-      url: "https://twitter.com/lootproject",
+      url: "https://twitter.com/polygonloot",
     },
     {
       name: "Contract",
@@ -28,7 +28,7 @@ export default function Home(): ReactElement {
    */
   const getRandomThreeBags = () => {
     const shuffled = defaultBags.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3);
+    return shuffled.slice(0, 6);
   };
 
   return (
@@ -36,7 +36,7 @@ export default function Home(): ReactElement {
       <div>
         <div className={styles.home__cta}>
           {/* CTA title */}
-          <h1>Loot</h1>
+          <h1>Polygon Loot</h1>
 
           {/* Quicklinks */}
           <ul>
@@ -61,9 +61,9 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            Loot is randomized adventurer gear generated and stored on chain.
+            Polygon Loot is randomized adventurer gear generated and stored on chain.
             <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Loot in any
+            omitted for others to interpret. <br /> Feel free to use Polygon  Loot in any
             way you want.
           </p>
         </div>
@@ -74,7 +74,6 @@ export default function Home(): ReactElement {
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
             <a
-              href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
               target="_blank"
               rel="noopener noreferrer"
               key={i}

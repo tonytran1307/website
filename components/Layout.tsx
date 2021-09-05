@@ -35,11 +35,11 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
-      <meta name="title" content="Loot" />
+      <title> Polygon Loot</title>
+      <meta name="title" content="Polygon Loot" />
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Polygon Loot is randomized adventurer gear generated and stored on chain."
       />
 
       {/* OG + Faceook */}
@@ -48,7 +48,7 @@ function Head(): ReactElement {
       <meta property="og:title" content="Loot" />
       <meta
         property="og:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Polygon Loot is randomized adventurer gear generated and stored on chain."
       />
       <meta property="og:image" content="https://lootproject.com/meta.png" />
 
@@ -58,7 +58,7 @@ function Head(): ReactElement {
       <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Polygon Loot is randomized adventurer gear generated and stored on chain."
       />
       <meta property="twitter:image" content="https://lootproject.com/meta.png" />
 
@@ -96,7 +96,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Polygon Loot</a>
         </Link>
       </div>
 
@@ -136,15 +136,8 @@ function Footer(): ReactElement {
   return (
     <div className={styles.footer}>
       <p>
-        This website is{" "}
-        <a
-          href="https://github.com/lootproject/website"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          open-source
-        </a>
-        .
+        Polygon Loot Metaverse Builder.{" "}
+      
       </p>
     </div>
   );
