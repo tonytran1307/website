@@ -11,7 +11,6 @@ export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
-    { name: "Synthetic Loot", url: "/synthloot" },
     {
       name: "Twitter",
       url: "https://twitter.com/polygonloot",
@@ -19,6 +18,10 @@ export default function Home(): ReactElement {
     {
       name: "Contract",
       url: "https://polygonscan.com/address/0xb4dbf994ce6714a258f4f1dfefadc8119b14ec48",
+    },
+    {
+      name: "Discord",
+      url: "https://discord.gg/NEPPqXzzAB",
     },
   ];
 
